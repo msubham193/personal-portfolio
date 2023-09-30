@@ -8,17 +8,14 @@ const Earth = () => {
   const earth = useGLTF("./planet/scene.gltf");
 
   return (
-    <primitive object={earth.scene} scale={2.5} position-y={0} rotation-y={0} />
+    <primitive object={earth.scene} scale={1.3} position-y={0} rotation-y={0} />
   );
 };
 
 const EarthCanvas = () => {
   return (
     <Canvas
-      shadows
-      frameloop='demand'
-      dpr={[1, 2]}
-      gl={{ preserveDrawingBuffer: true }}
+      
       camera={{
         fov: 45,
         near: 0.1,
@@ -30,8 +27,7 @@ const EarthCanvas = () => {
         <OrbitControls
           autoRotate
           enableZoom={false}
-          maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2}
+        
         />
         <Earth />
 

@@ -1,13 +1,13 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
+  medal,
   redux,
   tailwind,
   nodejs,
@@ -15,14 +15,9 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  leetcode,
+  airbnb,
+  thoughts,
 } from "../assets";
 
 export const navLinks = [
@@ -46,16 +41,16 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "AI",
+    icon: mobile,
+  },
+  {
+    title: "Problem Solver",
+    icon: mobile,
   },
 ];
 
@@ -96,10 +91,7 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "git",
     icon: git,
@@ -116,94 +108,51 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-];
+    title: "Winner in Coding Competition",
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    icon: medal,
+    iconBg: "#383E56",
+    date: "Sept 2023 - Sept 2023",
+    points: [
+      "Got first Position in Inter College Coding Competition ",
+      "Solved 3 out of 5 problems on HackerRank in 60 minutes.",
+    ],
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    title: "Runner's Up in Web developement Competition",
+
+    icon: medal,
+    iconBg: "#E6DEDD",
+    date: "Mar 2023 - Mar 2023",
+    points: [
+      "Got 2nd position in Inter college Web Development Competition",
+      "Developed CarDekho Clone Website using HTML , CSS & Javscript",
+    ],
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    title: "Problems Solver solved almost 500+ algorithimic problems",
+
+    icon: leetcode,
+    iconBg: "#383E56",
+    date: "Jan 2021 - Present",
+    points: [
+      "Solved Data Structures and algorithms problems on Various platforms like LeetCode , Geeks for Geeks and Coding Ninjas",
+    ],
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Blog App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows Users to create blogs and read blogs in daily basis, user can like and give their feed back. also a user can follow another user.",
     tags: [
       {
         name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -214,52 +163,69 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "javascript",
+        color: "text-amber-600",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image:
+      "https://camo.githubusercontent.com/75f304fb0f31baf93f964def099af8e25f86186efa6ed93cecc5680b1950bfd4/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f636f6d6d756e6974792d34383663372e61707073706f742e636f6d2f6f2f53637265656e73686f74253230323032332d30372d32372532306174253230322e31382e3532253230504d2d6d696e2e706e673f616c743d6d6564696126746f6b656e3d30386632623334632d353138652d346161632d623032342d373961653734386434366336",
+    source_code_link: "https://github.com/msubham193/Blog-Nextjs",
   },
   {
-    name: "Job IT",
+    name: "Thoughts",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to Share their Thoughts like twitter & user can create thoughts and can like and give feedback on other's thoughts",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
+      {
+        name: "expressjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "text-amber-600",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: thoughts,
+    source_code_link: "https://github.com/msubham193/thoughts-web-application",
   },
   {
-    name: "Trip Guide",
+    name: " Hotel Booking(airbnb)",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A comprehensive Hotel booking platform that allows users to book hotels, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "typescript",
+        color: "text-amber-600",
+      },
+      {
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: airbnb,
+    source_code_link: "https://github.com/msubham193/airbnb-next-js",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
