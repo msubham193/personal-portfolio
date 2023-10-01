@@ -11,7 +11,7 @@ const Hero = () => {
       <div
         className={`absolute inset-0 top-0  max-w-7xl mx-auto ${styles.paddingX} flex flex-col items-center   justify-center gap-5 transition-all duration-300 ease-in-out`}
       >
-         <img src={dp} alt="" className="rounded-full h-32 w-32 object-cover " />
+      
 
         <div className=" text-center mb-5">
           <h1 className={`${styles.heroHeadText} text-white `}>
@@ -26,7 +26,7 @@ const Hero = () => {
 
       <StarsCanvas />
 
-      
+     
     </section>
   );
 };
