@@ -11,7 +11,6 @@ import {
   StarsCanvas,
 } from "./components";
 import SocialLogo from "./components/SocialLogo";
-import StarsCanvass from "./components/canvas/Starss";
 
 const App = () => {
   return (
@@ -20,11 +19,7 @@ const App = () => {
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
           <Navbar />
 
-          <div className="relative z-0">
-          <Contact />
-          <StarsCanvass />
-        </div>
-
+          <Hero />
           <div className="w-screen flex justify-center mt-10 animate-pulse">
             {" "}
             <SocialLogo />
@@ -37,7 +32,7 @@ const App = () => {
 
         <div className="relative z-0">
           <Contact />
-          <StarsCanvass />
+          <StarsCanvas />
         </div>
       </div>
     </BrowserRouter>
