@@ -11,6 +11,7 @@ import {
   StarsCanvas,
 } from "./components";
 import SocialLogo from "./components/SocialLogo";
+import StarsCanvass from "./components/canvas/Starss";
 
 const App = () => {
   return (
@@ -32,7 +33,7 @@ const App = () => {
 
         <div className="relative z-0">
           <Contact />
-          <StarsCanvas />
+          <StarsCanvass />
         </div>
       </div>
     </BrowserRouter>

@@ -15,7 +15,6 @@ const Earth = () => {
 const EarthCanvas = () => {
   return (
     <Canvas
-      
       camera={{
         fov: 45,
         near: 0.1,
@@ -24,11 +23,7 @@ const EarthCanvas = () => {
       }}
     >
       <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls
-          autoRotate
-          enableZoom={false}
-        
-        />
+        <OrbitControls autoRotate enableZoom={false} />
         <Earth />
 
         <Preload all />

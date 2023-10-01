@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+import { ComputersCanvas, StarsCanvas } from "./canvas";
 import dp from "../assets/dp.jpeg";
 import LottieComponent from "./Lottie";
 import { useEffect, useState } from "react";
@@ -41,7 +41,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <ComputersCanvas  />
+      <StarsCanvas />
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
