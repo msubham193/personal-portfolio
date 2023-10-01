@@ -1,11 +1,9 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas, StarsCanvas } from "./canvas";
+import {  StarsCanvas } from "./canvas";
 import dp from "../assets/dp.jpeg";
-import LottieComponent from "./Lottie";
-import { useEffect, useState } from "react";
-import SocialLogo from "./SocialLogo";
+
 
 const Hero = () => {
   return (
@@ -13,7 +11,7 @@ const Hero = () => {
       <div
         className={`absolute inset-0 top-0  max-w-7xl mx-auto ${styles.paddingX} flex flex-col items-center   justify-center gap-5 transition-all duration-300 ease-in-out`}
       >
-        <img src={dp} alt="" className="rounded-full h-32 w-32 object-cover " />
+  
 
         <div className=" text-center mb-5">
           <h1 className={`${styles.heroHeadText} text-white `}>
