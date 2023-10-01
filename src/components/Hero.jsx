@@ -13,8 +13,6 @@ const Hero = () => {
 
     
 
-      <StarsCanvas />
-
      
     </section>
   );
