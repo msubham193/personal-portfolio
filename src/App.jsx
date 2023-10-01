@@ -21,9 +21,9 @@ const App = () => {
           <Navbar />
 
           <div className="relative z-0">
-            <Hero />x
-            <StarsCanvas />
-          </div>
+          <Contact />
+          <StarsCanvass />
+        </div>
 
           <div className="w-screen flex justify-center mt-10 animate-pulse">
             {" "}
