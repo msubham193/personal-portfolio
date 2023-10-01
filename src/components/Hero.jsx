@@ -8,27 +8,12 @@ import { useEffect, useState } from "react";
 import SocialLogo from "./SocialLogo";
 
 const Hero = () => {
-  const [isShow, setShow] = useState(true);
-
-  useEffect(() => {});
-
-  setTimeout(() => {
-    setShow(false);
-  }, 6000);
   return (
     <section className={`relative w-full h-screen mx-auto `}>
       <div
         className={`absolute inset-0 top-0  max-w-7xl mx-auto ${styles.paddingX} flex flex-col items-center   justify-center gap-5 transition-all duration-300 ease-in-out`}
       >
-        {isShow ? (
-          <LottieComponent />
-        ) : (
-          <img
-            src={dp}
-            alt="subham"
-            className="rounded-full h-32 w-32 object-cover "
-          />
-        )}
+        <img src={dp} alt="" className="rounded-full h-32 w-32 object-cover " />
 
         <div className=" text-center mb-5">
           <h1 className={`${styles.heroHeadText} text-white `}>
